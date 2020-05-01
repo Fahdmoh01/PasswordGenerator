@@ -23,7 +23,7 @@ public class Password_Generator {
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Enter the length of the OTP to be Generated");
+		System.out.println("Enter the length of the Password to be Generated");
 		System.out.println(give_Password(sc.nextInt()));
 		sc.close();
 	}
